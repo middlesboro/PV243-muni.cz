@@ -1,6 +1,9 @@
 package cz.muni.fi.pv243.automoto.model;
 
-import javax.persistence.*;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Version;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
@@ -8,7 +11,7 @@ import java.util.List;
 /**
  * @author Andrej Kuročenko <andrej@kurochenko.net>
  */
-@Entity
+//@Entity
 public class User implements Serializable {
 
     @Id
