@@ -1,5 +1,6 @@
 package cz.muni.fi.pv243.automoto.model;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Version;
@@ -8,7 +9,7 @@ import java.io.Serializable;
 /**
  * @author Andrej Kuročenko <andrej@kurochenko.net>
  */
-//@Entity
+@Entity
 public class Privilege implements Serializable {
 
     @Id

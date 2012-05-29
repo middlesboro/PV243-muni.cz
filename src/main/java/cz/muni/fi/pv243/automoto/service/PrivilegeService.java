@@ -15,5 +15,6 @@ public interface PrivilegeService {
     void delete(Privilege privilege);
     Privilege find(Long id);
     List<Privilege> findAll();
+    int count();
 
 }
