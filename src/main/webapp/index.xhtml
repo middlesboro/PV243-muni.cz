@@ -9,12 +9,8 @@
 
         index2<br />
 
-
-        <h:outputText value="#{privilegeService.count}">#{privilegeService.count}</h:outputText><br/>
-        #{privilegeService.count}
-
-        <ui:repeat value="#{privilegeService.findAll}" var="priv">
-            <h:outputText value="#{priv.privilege}" />
+        <ui:repeat value="#{privilegeService.findAll()}" var="priv">
+            <h:outputText value="#{priv.privilege}" /><br />
         </ui:repeat>
     </ui:define>
 </ui:composition>

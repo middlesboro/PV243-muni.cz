@@ -16,5 +16,4 @@ public interface PrivilegeService {
     Privilege find(Long id);
     List<Privilege> findAll();
     int count();
-
 }
