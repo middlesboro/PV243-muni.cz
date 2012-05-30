@@ -12,7 +12,11 @@ import java.io.Serializable;
 @Entity
 public class Privilege implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3457718096596004079L;
+	@Id
     @GeneratedValue
     private Long id;
     @Version

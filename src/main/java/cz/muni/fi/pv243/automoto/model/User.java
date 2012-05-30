@@ -11,7 +11,11 @@ import java.util.List;
 @Entity
 public class User implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4327626435654450278L;
+	@Id
     @GeneratedValue
     private Long id;
     @Version
